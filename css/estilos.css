@@ -18,7 +18,9 @@ h4{
   font: bold italic 18px Lato, sans-serif;
   color: indigo;
   }
-
+  footer{
+    text-align: center;
+  }
 a{
   text-decoration: none;
   color: MidnightBlue;
@@ -41,10 +43,6 @@ a{
   color: DarkSlateGray;
   text-align: center;
 }
-.iconoWsp{
-  width: 46px; float: right;
-}
-.iconoInsta{
-  width: 22px;
-  position: fixed bottom 10 px, right 50px ;
+.icono{
+  width: 26px;
 }
