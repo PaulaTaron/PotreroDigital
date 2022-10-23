@@ -1,0 +1,30 @@
+body{
+  background:azure url(../imagen/fondo2.jpg) no-repeat fixed ;
+
+}
+h1{
+  text-align: center;
+  text-decoration: underline;
+  font: bold  40px "Times New Roman", Courier, sans-serif ;
+  color: black;
+}
+h2{
+  color: blue;
+  font: bold 28px Lato, sans-serif;
+}
+h4{
+  text-align: justify;
+  font: bold italic 18px Lato, sans-serif;
+  color: indigo
+  }
+img{
+  width: 600px;
+}
+.texto{
+  text-align: justify;
+  font: 16px Arial, sans-serif;
+  }
+
+.lista{
+  font: 16px Arial, sans-serif;
+}
