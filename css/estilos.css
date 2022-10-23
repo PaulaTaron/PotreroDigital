@@ -1,24 +1,32 @@
 body{
-  background:azure url(../imagen/fondo2.jpg) no-repeat fixed ;
+  background:azure url(../imagen/fondo2.jpg) repeat fixed;
 
 }
 h1{
   text-align: center;
   text-decoration: underline;
-  font: bold  40px "Times New Roman", Courier, sans-serif ;
+  font: bold  40px "Times New Roman", Courier, sans-serif;
   color: black;
 }
 h2{
-  color: blue;
-  font: bold 28px Lato, sans-serif;
+  color: navy;
+  font: bold 24px Lato, sans-serif;
+  text-decoration: underline;
 }
 h4{
   text-align: justify;
   font: bold italic 18px Lato, sans-serif;
-  color: indigo
+  color: indigo;
   }
-img{
+
+a{
+  text-decoration: none;
+  color: MidnightBlue;
+  font: 16px Arial, sans-serif;
+}
+.platoAleman{
   width: 600px;
+  display: block;
 }
 .texto{
   text-align: justify;
@@ -27,4 +35,16 @@ img{
 
 .lista{
   font: 16px Arial, sans-serif;
+}
+.pie{
+  font: 14px Arial, sans-serif;
+  color: DarkSlateGray;
+  text-align: center;
+}
+.iconoWsp{
+  width: 46px; float: right;
+}
+.iconoInsta{
+  width: 22px;
+  position: fixed bottom 10 px, right 50px ;
 }
