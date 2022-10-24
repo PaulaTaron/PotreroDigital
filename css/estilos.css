@@ -2,34 +2,40 @@ body{
   background:azure url(../imagen/fondo2.jpg) repeat fixed;
 
 }
+
 h1{
   text-align: center;
   text-decoration: underline;
   font: bold  40px "Times New Roman", Courier, sans-serif;
   color: black;
 }
+
 h2{
   color: navy;
   font: bold 24px Lato, sans-serif;
   text-decoration: underline;
 }
+
 h4{
   text-align: justify;
   font: bold italic 18px Lato, sans-serif;
   color: indigo;
   }
-  footer{
+
+footer{
     text-align: center;
   }
+
 a{
   text-decoration: none;
   color: MidnightBlue;
   font: 16px Arial, sans-serif;
 }
-.platoAleman{
-  width: 600px;
-  display: block;
+
+.platoComida{
+  width: 450px;
 }
+
 .texto{
   text-align: justify;
   font: 16px Arial, sans-serif;
@@ -38,11 +44,19 @@ a{
 .lista{
   font: 16px Arial, sans-serif;
 }
+
 .pie{
   font: 14px Arial, sans-serif;
   color: DarkSlateGray;
   text-align: center;
 }
-.icono{
+
+.iconos{
   width: 26px;
+}
+.contenedorImagen{
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+
 }
