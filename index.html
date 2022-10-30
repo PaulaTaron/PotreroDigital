@@ -18,7 +18,7 @@
         <h1 class="tituloPagina">Deutsche Küche</h1>
       </div>
 
-    <div class="redesHeader">
+    <div class="contenedorRedesHeader">
       <a href="https://wa.me/+543425396540?text=Quiero%20más%20información" target="_blank">
         <img class="iconos" src="./imagen/wsp.png" alt="Icono Whatssap">
       </a>
@@ -34,19 +34,19 @@
     </div>
   </header>
 
-  <br>
   <nav>
-    <a class="link" href="contactos.html">Contacto</a>
-    <a class="link" href="https://www.lanacion.com.ar/recetas/entradas/ensalada-de-papa-alemana-la-autentica-kartoffelsalat-nid20092022/"
-      target="_blank">Kartoffelsalat</a>
-    <a class="link" href="https://www.divinacocina.es/currywurst-al-estilo-aleman/" target="_blank">Currywurst </a>
-    <a class="link" href="https://www.paulinacocina.net/stollen/25049" target="_blank">Stollen</a>
-    <a class="link" href="https://www.recetasderechupete.com/bizcocho-rayado-baumkuchen/18710/" target="_blank">Baumkuchen</a>
-    <br>
+    <div class="contenedorNav">
+      <a class="link" href="contactos.html">Contacto</a>
+      <a class="link" href="https://www.lanacion.com.ar/recetas/entradas/ensalada-de-papa-alemana-la-autentica-kartoffelsalat-nid20092022/"
+        target="_blank">Kartoffelsalat</a>
+      <a class="link" href="https://www.divinacocina.es/currywurst-al-estilo-aleman/" target="_blank">Currywurst </a>
+      <a class="link" href="https://www.paulinacocina.net/stollen/25049" target="_blank">Stollen</a>
+      <a class="link" href="https://www.recetasderechupete.com/bizcocho-rayado-baumkuchen/18710/" target="_blank">Baumkuchen</a>
+    </div>
   </nav>
 
   <main>
-    <div>
+    <div class="contenedorTexto">
       <h1>Rheinischer Sauerbraten</h1>
       <p class="texto">El Rheinischer Sauerbraten, es un asado tradicional de carne muy marinada. Se considera un plato
         nacional de Alemania. Se puede preparar a partir de una variedad de carnes de ternera,pero también de venado,
@@ -74,7 +74,7 @@
   </aside>
 
   <section>
-    <div>
+    <div class="contenedorTexto">
       <h2>Ingredientes</h2>
       <ul class="texto">
         <li>1 kg de carne de res</li>
@@ -95,7 +95,7 @@
       </ul>
     </div>
 
-    <div>
+    <div class="contenedorTexto">
       <h2>Preparación</h2>
       <ol class="texto">
         <li>Primero debemos marinar la carne, unos 2-3 días antes de preparar el Sauerbraten. Retirar el exceso de grasa
@@ -116,15 +116,15 @@
     </div>
   </section>
 
-  <aside>
-    <!-- audio sobre musica tradicional alemana -->
-    <h3>Música tradicional alemana</h3>
-    <audio controls src="./audio/musicaAlemana.mp3"></audio>
-    <br>
+  <aside id="contenedorAudio">
+    <div>
+      <h3>Música tradicional alemana</h3>
+      <audio controls src="./audio/musicaAlemana.mp3"></audio>
+    </div>
   </aside>
 
-  <section class="iframe">
-    <div>
+  <section class="contenedorIframe">
+    <div class="iframe">
       <!-- I frame video de Youtube sobre la preparacion del mismo -->
       <h4>Podés ver la receta completa en YouTube</h4>
       <iframe width="450" height="270" src="https://www.youtube.com/embed/Lgn8xWb8B-k" title="YouTube video player"
@@ -132,7 +132,7 @@
         allowfullscreen></iframe>
     </div>
 
-    <div>
+    <div class="iframe">
       <!-- I frame- Google maps de la region de Renania- Alemania -->
       <h4>Origen de la receta. Región de Renania- Alemania</h4>
       <iframe
@@ -144,14 +144,14 @@
   </section>
 
   <footer>
-    <div class="mapaProgramador">
+    <div class="contenedorMapaProgramador">
       <iframe
         src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3395.729249188734!2d-60.76357045045779!3d-31.668626381229114!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95b5a87de849feb5%3A0xb5c0c72e6a831ff3!2sCol%C3%B3n%201900%2C%20S3016AVP%20Santo%20Tom%C3%A9%2C%20Santa%20Fe!5e0!3m2!1ses-419!2sar!4v1666697498858!5m2!1ses-419!2sar"
         width="250" height="150" style="border:0;" allowfullscreen="" loading="lazy"
         referrerpolicy="no-referrer-when-downgrade"></iframe>
     </div>
 
-    <div class="redesFooter">
+    <div class="contenedorRedesFooter">
       <a href="https://wa.me/+543425396540?text=Quiero%20más%20información" target="_blank">
         <img class="iconos" src="./imagen/wsp.png" alt="Icono Whatssap">
       </a>

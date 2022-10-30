@@ -12,26 +12,23 @@
 @import url('https://fonts.googleapis.com/css2?family=Fuzzy+Bubbles:wght@700&family=Roboto:ital,wght@0,100;0,400;0,500;0,700;0,900;1,100;1,400;1,700;1,900&display=swap');
 
 body{
-  background:azure url(../imagen/fondo2.jpg)  repeat fixed;
+  background-color: rgba(247, 234, 246, 0.884);
   font-family: 'Roboto', sans-serif;
+  margin: 0%;
+  padding: 0%;
 }
 
 
 header{
-  width: 100vw;
-  height: 35vh;
+  background:rgb(188, 209, 209) url(../imagen/fondo2.jpg) 90% repeat fixed;
+  min-height: 30vh;
   display: flex;
   justify-content: space-around;
   align-items: center;
   flex-wrap: wrap;
+  background-color: whitesmoke 0.5;
 }
 
-.imagenLogo{
-  width: 35%;
-}
-.imagenLogo:hover{
-  filter: sepia(60%);
-}
 .contenedorLogo{
   display: flex;
   width: 30%;
@@ -39,12 +36,13 @@ header{
   justify-content: flex-start;
 }
 
-.redesHeader{
+.contenedorRedesHeader{
   display: flex;
   width: 30%;
   align-items: center;
   justify-content: space-around;
 }
+
 .contenedorTitulo{
 display: flex;
 width:40%;
@@ -52,6 +50,41 @@ align-items: center;
 justify-content: center;
 }
 
+#contenedorAudio{
+  margin-left: 60px;
+}
+
+.contenedorTexto{
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+.contenedorNav{
+min-height: 10vh;
+display: flex;
+align-items: center;
+justify-content: space-around;
+flex-wrap: wrap;
+margin: 0px 10px 0px 10px;
+}
+
+/* Enlaces del navegador */
+
+.link{
+  text-decoration: none;
+  font-family: "raven";
+  font-size: 1.3rem;
+  font-weight: bold;
+  color: blue;
+  padding: 20px 30px;
+  }
+
+.link:hover{
+  color: rgb(253, 5, 137);
+}
+
+
+/* Estilos de texto */
 h1{
   font-family: "raven";
   text-align: center;
@@ -59,6 +92,7 @@ h1{
   font-size:2.5rem;
   font-weight: bold;
   color: black;
+  margin-bottom: 10px;
 }
 .tituloPagina{
   font-family: "stencil";
@@ -74,7 +108,6 @@ h2{
   color: navy;
   text-decoration: underline;
 }
-
 
 h3{
   text-align: left;
@@ -92,54 +125,63 @@ h4{
   font-family: "raven";
   }
 
-.link{
-  text-decoration: none;
-  font-family: "raven";
-  font-size: 1.3rem;
-  color: blue;
-  padding: 20px 30px;
-  }
-
-.link:hover{
-  font-weight: bold;
-  color: deeppink;
-  background-color: whitesmoke;
-}
-
 .texto{
   text-align: justify;
   font-size: 1.1rem;
   }
 
 /*IMAGENES*/
+/* contenedor e imagen comida */
 .contenedorImagen{
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
-
+  margin-bottom: 60px;
 }
 .imagenComida{
-  width: 450px;
-  display: flex;
-  justify-content: space-around;
-  flex-wrap: wrap;
-}
-.iframe{
+  width: 45vw;
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
 }
 
+/* I frames youtube y mapa */
+.contenedorIframe{
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin-bottom: 30px;
+}
 
+/* Iconos a redes sociales */
+.iconos{
+  width: 40px;
 
-/*iNICIO DEL FOOTER*/
+}
+.iconos:hover{
+  filter: opacity(.5);
+}
+
+/* Imagen Logo header */
+.imagenLogo{
+  width: 35%;
+  margin-left: 30px;
+  margin-top: 30px;
+}
+.imagenLogo:hover{
+  filter: sepia(60%);
+}
+
+/*INICIO DEL FOOTER*/
 footer{
-  width: 100vw;
-  height: 35vh;
+  background:azure url(../imagen/fondo2.jpg) 90% repeat fixed;
+  min-height: 25vh;
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
+  margin-top: 10px;
   }
+
 .contenedorCopyright{
   display: flex;
   align-items: center;
@@ -153,21 +195,14 @@ footer{
   text-align: center;
     }
 
-.iconos{
-  width: 40px;
-}
-.iconos:hover{
-  filter: opacity(.5);
-}
-
-.redesFooter{
+.contenedorRedesFooter{
   display: flex;
   width:30%;
   align-items: center;
   justify-content: space-around;
-
 }
-.mapaProgramador{
+
+.contenedorMapaProgramador{
   display: flex;
   align-items: center;
   justify-content: flex-start;
