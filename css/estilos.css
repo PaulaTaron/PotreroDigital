@@ -18,12 +18,14 @@ body {
   font-family: 'Roboto', sans-serif;
   margin: 0%;
   padding: 0%;
-}
+  margin-right: 0px;
+  }
 
 
 header {
   background: rgb(188, 209, 209) url(../imagen/fondo2.jpg) 50% repeat;
   min-height: 25vh;
+  width: 100vw;
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -92,6 +94,7 @@ footer {
 .contenedorIframe {
   display: flex;
   justify-content: space-around;
+  align-items: center;
   flex-wrap: wrap;
   margin-bottom: 30px;
 }
@@ -199,7 +202,6 @@ h4 {
 /* Iconos a redes sociales */
 .iconos, .icono-5 {
   width: 50%;
-
 }
 
 .iconos:hover,.icono-5:hover {
@@ -227,7 +229,7 @@ h4 {
 
 @media (max-width: 575px) {
   .imagenComida {
-    width: 65vw;
+    width: 100vw;
   }
 }
 
@@ -235,6 +237,12 @@ h4 {
   .texto {
     font-size: 1rem;
   }
+}
+@media (max-width: 575px) {
+.contenedorTexto {
+  margin-left: 10px;
+  margin-right: 10px;
+}
 }
 
 @media (max-width: 575px) {
@@ -252,14 +260,19 @@ h4 {
 
 @media (max-width: 575px) {
   .contenedorLogo {
-    width: 40%;
+    width: 50%;
     justify-content: center;
   }
 }
 
 @media (max-width: 575px) {
   .contenedorRedesHeader {
-    width: 40%;
+    width: 80%;
+  }
+}
+@media (max-width: 575px) {
+  .iframe1 {
+    width: 400px;
   }
 }
 
@@ -310,13 +323,13 @@ h4 {
 
 @media (max-width: 575px) {
   .contenedorCopyright {
-    width: 50%;
+    width: 80%;
   }
 }
 
 @media (max-width: 575px) {
   .contenedorRedesFooter {
-    width: 40%;
+    width: 80%;
   }
 }
 
