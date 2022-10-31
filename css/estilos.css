@@ -18,14 +18,13 @@ body {
   font-family: 'Roboto', sans-serif;
   margin: 0%;
   padding: 0%;
-  margin-right: 0px;
   }
 
 
 header {
   background: rgb(188, 209, 209) url(../imagen/fondo2.jpg) 50% repeat;
-  min-height: 25vh;
-  width: 100vw;
+  min-height: 25%;
+  width: 100%;
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -35,7 +34,7 @@ header {
 
 footer {
   background: azure url(../imagen/fondo2.jpg) 50% repeat;
-  min-height: 25vh;
+  min-height: 25%;
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
@@ -74,7 +73,7 @@ footer {
 }
 
 .contenedorNav {
-  min-height: 10vh;
+  min-height: 10%;
   background-color: rgb(243, 213, 230);
   opacity: 0.8;
   display: flex;
@@ -268,13 +267,23 @@ h4 {
 @media (max-width: 575px) {
   .contenedorRedesHeader {
     width: 80%;
+    padding-top: 20px;
+    padding-bottom:10px;
   }
 }
 @media (max-width: 575px) {
-  .iframe1 {
-    width: 100%x;
+  .youtube {
+    max-width: 100%;
   }
-}
+  }
+
+  @media (max-width: 575px) {
+    .iframe1 {
+    max-width: 90%;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;}
+    }
 
 @media (max-width: 575px) {
   body {
@@ -324,12 +333,15 @@ h4 {
 @media (max-width: 575px) {
   .contenedorCopyright {
     width: 80%;
+    padding-top: 10px;
+    padding-bottom:10px;
   }
 }
 
 @media (max-width: 575px) {
   .contenedorRedesFooter {
     width: 80%;
+    padding-top: 10px;
   }
 }
 
