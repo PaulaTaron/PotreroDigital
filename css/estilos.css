@@ -272,7 +272,7 @@ h4 {
 }
 @media (max-width: 575px) {
   .iframe1 {
-    width: 400px;
+    width: 100%x;
   }
 }
 
