@@ -50,8 +50,8 @@ footer {
 }
 
 .contenedorRedesHeader {
-  display: flex;
   width: 25%;
+  display: flex;
   align-items: center;
   justify-content: space-around;
 }
@@ -246,8 +246,9 @@ h4 {
 
 @media (max-width: 575px) {
   h1 {
-    font-size: 1.5rem;
+    font-size: 1.6rem;
     color: rgb(5, 5, 85);
+    text-decoration: none;
   }
 }
 
@@ -266,7 +267,7 @@ h4 {
 
 @media (max-width: 575px) {
   .contenedorRedesHeader {
-    width: 80%;
+    width:80%;
     padding-top: 20px;
     padding-bottom:10px;
   }
@@ -388,6 +389,7 @@ h4 {
   h1 {
     font-size: 2rem;
     color: rgb(5, 5, 85);
+    text-decoration: none;
   }
 }
 
@@ -407,6 +409,7 @@ h4 {
 @media (min-width:576px) and (max-width: 991px) {
   .contenedorRedesHeader {
     width: 50%;
+    margin: 10px 0px 15px 0px ;
   }
 }
 
@@ -424,8 +427,9 @@ h4 {
 
 @media (min-width:576px) and (max-width: 991px) {
   .link {
-    padding: 3px 10px;
+    padding: 15px 10px;
     font-size: 1.2rem;
+
   }
 }
 
@@ -450,12 +454,14 @@ h4 {
 @media (min-width:576px) and (max-width: 991px) {
   .contenedorCopyright {
     width: 40%;
+    margin: 10px 0px;
   }
 }
 
 @media (min-width:576px) and (max-width: 991px) {
   .contenedorRedesFooter {
     width: 40%;
+    margin-top: 20px;
 
   }
 }
