@@ -23,7 +23,7 @@ function modoOscuro() {
     document.getElementById("card4").style.color = "black";
     }
 
-    /* Funcion que muestra los datos del creador */
+    /* Funcion que muestra los datos del creador de la página */
 function mostrarDatos(){
   alert ("Paula Taron- Potrero Digital 2022- taronpaula@gmail.com")
 }

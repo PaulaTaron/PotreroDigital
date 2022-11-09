@@ -1,4 +1,4 @@
-/* Fuentes */
+/* Fuentes descargadas*/
 @font-face {
   font-family: "raven";
   src: url("../font/RAVIE.TTF") format:("truetype");
@@ -9,9 +9,11 @@
   src: url("../font/STENCIL.TTF") format:("truetype");
 }
 
+/* Fuentes importadas desde Google fonts */
 @import url('https://fonts.googleapis.com/css2?family=Fuzzy+Bubbles:wght@700&family=Roboto:ital,wght@0,100;0,400;0,500;0,700;0,900;1,100;1,400;1,700;1,900&display=swap');
 
 @import url('https://fonts.googleapis.com/css2?family=Ultra&display=swap');
+
 
 body {
   background-color: whitesmoke;
@@ -22,7 +24,7 @@ body {
 
 
 header {
-  background: rgb(160, 219, 219) url(../imagen/fondo2.jpg) 50% repeat;
+  background: rgb(160, 219, 219) url(../imagen/fondo2.jpg) repeat;
   min-height: 35vh;
   width: 100%;
   display: flex;
@@ -32,7 +34,7 @@ header {
 }
 
 footer {
-  background: azure url(../imagen/fondo2.jpg) 50% repeat;
+  background: azure url(../imagen/fondo2.jpg) repeat;
   min-height: 25%;
   display: flex;
   justify-content: space-around;
@@ -123,8 +125,7 @@ footer {
   justify-content: center;
 }
 
-.contenedorTexto2,
-{
+.contenedorTexto2,{
 margin-left: 10px;
 margin-right: 10px;
 width: 100%;
@@ -161,8 +162,16 @@ padding: 0px 20px;
   margin: 40px 0px;
 }
 
+.contenedorFormulario{
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;  
+}
 
-/* I frames youtube y mapa */
+
+/* I frames youtube, mapa y formulario */
 .contenedorIframe {
   display: flex;
   justify-content: space-around;
@@ -201,6 +210,11 @@ padding: 0px 20px;
   width: 30%;
 }
 
+.formulario{
+  min-width: 60%;
+  min-height: 100%;
+}
+
 /* Enlaces del navegador */
 
 .link {
@@ -209,6 +223,7 @@ padding: 0px 20px;
   font-size: 1.4rem;
   font-weight: bold;
   color: blue;
+  transition: color 1s linear;
   padding: 20px 30px;
 }
 
@@ -221,7 +236,7 @@ padding: 0px 20px;
   color: white;
   background-color: blue;
   font-size: 1rem;
-  min-height: 7vh;
+  min-height: 5vh;
   min-width: 13vw;
   border: 2px solid blue;
   border-radius: 6px;
@@ -247,7 +262,10 @@ h1 {
 .tituloPagina {
   font-family: "stencil";
   text-align: center;
-  font-size: 3rem;
+  font-size: 3.7rem;
+}
+.tituloPagina:hover {
+  color: #797778;
 }
 
 h2 {
@@ -276,6 +294,10 @@ h4 {
 
 .texto {
   text-align: justify;
+  font-size: 1.2rem;
+}
+.textoContacto {
+  text-align: center;
   font-size: 1.2rem;
 }
 
@@ -343,8 +365,9 @@ h4 {
 }
 
 .card:hover {
-  background-color: rgba(226, 151, 189, 0.993);
+  background-color: #b6e5e5;
 }
+
 
 /**Media query celulares*/
 @media (max-width: 575px) {
@@ -354,7 +377,7 @@ h4 {
 
   .iconos,
   .icono-5 {
-    width: 10vw;
+    width: 12vw;
     margin: 0px 15px 15px 0px;
   }
 
