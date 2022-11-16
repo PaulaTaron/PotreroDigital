@@ -24,8 +24,8 @@ body {
 
 
 header {
-  background: rgb(160, 219, 219) url(../imagen/fondo2.jpg) repeat;
-  min-height: 35vh;
+  background: rgb(160, 219, 219) url(../imagen/fondo2.jpg) repeat 60%;
+  min-height: 30vh;
   width: 100%;
   display: flex;
   justify-content: space-around;
@@ -34,8 +34,8 @@ header {
 }
 
 footer {
-  background: azure url(../imagen/fondo2.jpg) repeat;
-  min-height: 25%;
+  background: azure url(../imagen/fondo2.jpg) repeat 60%;
+  min-height: 30%;
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
@@ -52,6 +52,12 @@ footer {
   padding: 2px 2px;
 }
 
+.contenedorBoton2{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 .contenedorLogo {
   display: flex;
   width: 25%;
@@ -240,6 +246,7 @@ padding: 0px 20px;
   min-width: 13vw;
   border: 2px solid blue;
   border-radius: 6px;
+  transition: color 1s linear;
 }
 
 .boton:hover {
@@ -263,9 +270,6 @@ h1 {
   font-family: "stencil";
   text-align: center;
   font-size: 3.7rem;
-}
-.tituloPagina:hover {
-  color: #797778;
 }
 
 h2 {
@@ -314,6 +318,7 @@ h4 {
 .iconos,
 .icono-5 {
   width: 4vw;
+  transition:  1s linear;
 }
 
 .iconos:hover,
@@ -324,23 +329,24 @@ h4 {
 .wspIcon {
   position: fixed;
   width: 70px;
-  top: 82%;
+  top: 75%;
   right: 2%;
 }
 
 .wspIcon:hover {
-  filter: opacity(.8);
+  filter: drop-shadow(2px 2px 5px rgb(111, 206, 22));
 }
 
 /* Imagen Logo header */
 .imagenLogo {
-  width: 35%;
+  width: 70%;
   margin-left: 30px;
   margin-top: 30px;
+  transition: 1s linear;
 }
 
 .imagenLogo:hover {
-  filter: sepia(60%);
+  filter: grayscale(80%)  drop-shadow(2px 2px 5px yellow);
 }
 
 /* estilos card */
@@ -356,8 +362,6 @@ h4 {
 .card-body {
   height: 100%;
   width: 100%;
-  padding-top: 4vh;
-  padding-bottom: 4vh;
 }
 
 .card-text {
@@ -365,7 +369,7 @@ h4 {
 }
 
 .card:hover {
-  background-color: #b6e5e5;
+  background-color: #e1e4e4;
 }
 
 
@@ -435,26 +439,14 @@ h4 {
     padding-right: 10px;
   }
 
-  body {
-    background-color: rgba(238, 207, 235, 0.884);
-  }
-
-  .contenedorBoton {
-    background-color: rgba(238, 207, 235, 0.884);
-  }
-
   .contenedorNav {
-    background-color: rgba(238, 150, 231, 0.884);
     padding: 3px 5px;
+    min-height: 20%;
   }
 
   .link {
     font-size: 1rem;
     padding: 3px 15px;
-  }
-
-  .link:hover {
-    color: rgb(248, 42, 27)
   }
 
   header {
@@ -541,29 +533,12 @@ h4 {
     width: 50%;
 
   }
-
-  body {
-    background-color: rgba(198, 232, 241, 0.884);
-  }
-
-  .contenedorBoton {
-    background-color: rgba(198, 232, 241, 0.884);
-  }
-
-  .contenedorNav {
-    background-color: rgba(122, 213, 238, 0.884);
-  }
-
   link {
     padding: 15px 5px;
     font-size: 1.2rem;
   }
 
-  .link:hover {
-    color: hsla(81, 87%, 24%, 0.952)
-  }
-
-  header {
+   header {
     flex-direction: column;
   }
 
