@@ -17,6 +17,10 @@ function modoOscuro() {
     document.getElementById("card2").style.color = "black";
     document.getElementById("card3").style.color = "black";
     document.getElementById("card4").style.color = "black";
+    document.getElementById("link1").style.color = "black";
+    document.getElementById("link2").style.color = "black";
+    document.getElementById("link3").style.color = "black";
+
     }
 
     /* Funcion que muestra los datos del creador de la página */
