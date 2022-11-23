@@ -3,6 +3,7 @@ function modoOscuro() {
     document.body.style.backgroundColor = "black";
     document.body.style.color = "white";
     document.getElementById("contenedorBoton").style.backgroundColor = "black";
+    document.getElementById("contenedorCajaTexto2").style.backgroundColor = "black";
     document.getElementById("header").style.background = "none";
     document.getElementById("footer").style.background = "none";
     document.getElementById("header").style.backgroundColor = "whitesmoke";

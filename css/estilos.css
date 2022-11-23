@@ -109,7 +109,7 @@ justify-items: center;
   align-items: center;
   flex-wrap: wrap;
   width: 100%;
-  padding: 50px 0px;
+  padding: 30px 0px;
 }
 
 .contenedorTexto2 {
@@ -165,7 +165,7 @@ justify-items: center;
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
-  margin: 40px 0px;
+  margin-top: 40px;
   
 }
 
